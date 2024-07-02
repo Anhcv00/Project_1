@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  padding: 10px 0;
+}
+/* Header */
+header {
+  color: white;
+}
+.navbar {
+  position: fixed;
+  opacity: 0.6;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+}
+.nav__name__left {
+  display: flex;
+}
+.navbar__bars {
+  color: white;
+  margin: 6px;
+  border: 1px solid black;
+  border-right-color: white;
+}
+.nav__name {
+  font-weight: bold;
+  margin: 0 10px;
+}
+.nav__title {
+  display: flex;
+  align-items: center;
+}
+span {
+  margin: 0 15px;
+}
+.nav__right {
+  /* position: relative; */
+  left: 75%;
+}
+.nav__icon {
+  color: white;
+}
+i {
+  font-size: 30px;
+  color: white;
+  margin: 0 15px;
+}
+.icon__search {
+  border: 1px solid black;
+  margin: 6px;
+  border-left-color: white;
+  font-size: 25px;
+}
+/* Banner */
+.banner {
+  background-image: url("./img/Banner_02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 900px;
+}
+.banner__title {
+  position: relative;
+  color: white;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-115%, 70%);
+}
+.title .banner__name {
+  font-size: 180px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 0.8;
+  margin: 0;
+}
+.title p {
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.title .btn__shop {
+  position: absolute;
+  top: 22rem;
+  left: 12rem;
+  width: 150px;
+  height: 50px;
+  background-color: #3954d9;
+  border-radius: 50px;
+  color: white;
+}
+/* feature */
+.feature {
+  position: relative;
+}
+.feature__item {
+  margin-top: -75px;
+  background-color: white;
+  text-align: center;
+}
+.feature i {
+  color: #5c5c5c;
+  padding: 50px;
+  font-size: 50px;
+}
+.feature__title {
+  color: #0d2e57;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 2;
+}
+.feature a {
+  color: #8798e9;
+  font-weight: bold;
+  line-height: 3;
+}
+/* offers */
+.offers__title {
+  position: relative;
+  text-align: center;
+  top: 16%;
+}
+.offers__title h5 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.offers__title h2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #0d2e57;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.offers__title .price__sale {
+  color: #3954d9;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offers__title .price__off {
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
+  text-decoration: line-through;
+  justify-content: center;
+  align-items: center;
+}
+.offers__banner {
+  width: 100%;
+}
+/* Products */
+.product {
+  font-weight: bold;
+}
+.item{
+  margin: 30px 0;
+}
+.img__shoe {
+  width: 100%;
+}
+.shoe__title h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #0d2e57;
+}
+.shoe__title .price__sale {
+  color: #3954d9;
+  font-size: 14px;
+}
+.shoe__title .price__off {
+  color: black;
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+.info {
+  background-color: black;
+  color: white;
+}
+.info .title__info {
+  margin-top: 30px;
+}
+.info .title__shoe {
+  position: relative;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  left: 14px;
+}
+.info .title__sale {
+  font-weight: 100;
+  font-size: 13px;
+  letter-spacing: 5px;
+}
+.info .btn__clickHere {
+  position: absolute;
+  border: 1px solid black;
+  color: white;
+  width: 135px;
+  height: 35px;
+  left: 30px;
+  bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #3954d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.model__1 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("./img/model_1_03.jpg");
+}
+.model__1 .slogan {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: 35px;
+  padding: 30px;
+}
+.model__1 .slogan .btn__shop {
+  position: absolute;
+  width: 110px;
+  height: 30px;
+  font-size: 14px;
+  background-color: #65cbff;
+  border-radius: 50px;
+  color: black;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 20px;
+  left: 60px;
+}
+.item__button{
+  text-align: center;
+}
+/* Images*/
+.image__item{
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  height: 100%;
+}
+.logo{
+  margin-top: -20px;
+  height: 500px;
+  width: 100%;
+}
+
+.logo-border{
+  background-color: #fff;
+  height: 250px;
+  width: 100%;
+  border: 1px solid #c7c7c7;
+  position: relative;
+}
+.logo-border img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Footer */
+h6{
+  color: #3753da;
+}
+Footer{
+  margin-top: -100px; 
+  padding: 10%;
+  background-image: url(./img/Footer\ BG.png);
+}
+.footer_icon{
+
+}
+.footer_icon a {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+.footer_icon a i{
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: black;
+}
+
+.footer-input{
+  width: 100%;
+  height: 40px;
+  background-color: #2f2f2f;
+  border-radius: 20px;
+  border: none;
+}
+
+/* Copyright  */
+
+.copyright{
+  color: #c7c7c7;
+
+}
+.ft_copyright{
+  justify-content: space-between;
+}
